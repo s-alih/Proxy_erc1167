@@ -1,14 +1,10 @@
-# Sample Hardhat Project
+# Transperent Upgrade Proxy setup using hardhat
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+You can use this templete for deploying proxy contract!!
 
-Try running some of the following tasks:
+#Reference contracts
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-# Upgrade_proxy_templete
+TransparentUpgradeableProxy - <link>https://ropsten.etherscan.io/address/0xc2a94D2450B8e1CA4E64953873fCD6656D2dB318</link>
+ProxyAdmin - <link>https://ropsten.etherscan.io/address/0xbaDf19D3Ac4f316eE5c5Dbf43b01949AC3958471</link>
+BoxV2 contract - <link>https://ropsten.etherscan.io/address/0xfD60E30ED4A7dDC4d791D5a230A7Baf75d93E412</link> 
+BoxV1 contract - <link>https://ropsten.etherscan.io/address/0xc42514a9cdc29aac31855de458dbd611abd66d14</link> 
