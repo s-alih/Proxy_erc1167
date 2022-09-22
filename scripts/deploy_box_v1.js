@@ -1,7 +1,10 @@
 const { hardhat, upgrades } = require("hardhat");
 
 async function main() {
+  // Getting contract instances
   const Box = await ethers.getContractFactory("Box");
+
+  // proxy setup
   const box = await upgrades.deployProxy(Box, [42], {
     initializer: "initialize",
   });
